@@ -13,7 +13,7 @@ git remote add origin https://github.com/Project-Krischlunas/ascii-pumpkin-proje
 2.	If we had 100 lines of code that used std::cout and no for loop, then the code would be much longer and easier to make a mistake in those 100 lines of code. The reason why the for loop used in this code makes the code more flexible is because you would use some of the lines multiple times and those that don’t need to be used more than once or twice then if the condition is met that’s when that line of code will be used. It saves the need to put unnecessary repeated code and you can instruct the computer to do x number of times instead.
 
 3.	The github commands to view all your edits would be git log --author="youremail@blank.com", this would allow you to see all the edits you did for task 3 and 6. 
-4.	
 
-5.	When I ran into the error: failed to push some refs to 'https://github.com/Project-Krischlunas/ascii-pumpkin-project.git' I did research into why I was getting this when I was trying to push my project into my github and found out that the command git push -u origin main is not in use and due to being insecure. The next command I tried was ssh-keygen -t ed25519 -C matt05291991@gmail.com to create a ssh key to make a secure connection to my github and post this project to it.
+4.	When I ran into the error: failed to push some refs to 'https://github.com/Project-Krischlunas/ascii-pumpkin-project.git' I did research into why I was getting this when I was trying to push my project into my github and found out that the command git push -u origin main is not in use and due to being insecure. The next command I tried was ssh-keygen -t ed25519 -C matt05291991@gmail.com to create a ssh key to make a secure connection to my github and post this project to it.
+
 
